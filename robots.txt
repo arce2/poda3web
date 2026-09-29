@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://poda3.com/sitemap.xml

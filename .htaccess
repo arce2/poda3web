@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www\.poda3\.com$ [NC]
+RewriteRule ^(.*)$ %{REQUEST_SCHEME}://poda3.com/$1 [L,R=301]
